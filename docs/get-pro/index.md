@@ -1,1 +1,0 @@
-# :octicons-verified-16: Get Secretium PRO version

@@ -3,17 +3,17 @@ layout: home
 
 hero:
   name: Secretium
-  text: A smart self-hosted tool for sharing secrets.
-  tagline: To your friends, colleagues, or anyone!
+  text: 一款用于分享秘密的智能自托管工具。
+  tagline: 给你的朋友、同事或任何人！
   image:
     src: /secretium-logo.svg
     alt: "secretium logo"
   actions:
     - theme: brand
-      text: Getting started
-      link: /getting-started
+      text: 开始
+      link: /zh/getting-started
     - theme: alt
-      text: View on GitHub
+      text: 在 GitHub 上查看
       link: https://github.com/secretium/secretium
 
 features:

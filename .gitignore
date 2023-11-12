@@ -5,46 +5,17 @@
 *.so
 *.dylib
 
-# Test dir and binary, built with `go test -c`
-tests/
-*.test
-
-# Output of the go coverage tool, specifically when used with LiteIDE
-*.out
-
-# Go workspace file
-go.work
-
 # macOS files
 .DS_Store
 
-# IDE config directories (remove the comment below to include it)
+# IDE config directories
 .idea/
 .vscode/
-
-# Dependency directories (remove the comment below to include it)
-vendor/
-
-# Binary directories
-bin/
 
 # Node modules
 node_modules/
 bun.lockb
 
-# Stylesheets
-internal/attachments/static_files/*.min.css
-
-# GoReleaser directories
-dist/
-
 # Temp directories
-.cache/
-tmp/
-
-# SQLite database folder
-secret-sharer-data/
-
-# REST Client files
-*.http
-*.rest
+docs/.vitepress/cache/
+docs/.vitepress/dist/
