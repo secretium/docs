@@ -1,3 +1,8 @@
+---
+editLink: false
+lastUpdated: false
+---
+
 # How does it work?
 
 This section will help you understand how **Secretium** works.

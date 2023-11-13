@@ -82,18 +82,10 @@ const userConfig: UserConfig = {
           ]
         },
         {
-          text: 'Project under the hood',
-          collapsed: false,
-          items: [
-            { text: 'Project structure', link: '/complete-user-guide/project-structure' },
-            { text: 'Technologies used', link: '/complete-user-guide/technologies-used' }
-          ]
-        },
-        {
           text: 'Installation',
           collapsed: false,
           items: [
-            { text: 'Prepare server', link: '/complete-user-guide/prepare-your-server' },
+            { text: 'Prepare remote server', link: '/complete-user-guide/prepare-remote-server' },
             { text: 'Create files with sensitive data', link: '/complete-user-guide/create-files-with-sensitive-data' },
             { text: 'Run installation script', link: '/complete-user-guide/run-installation-script' },
             { text: 'Edit Docker Compose file', link: '/complete-user-guide/edit-docker-compose' },
@@ -101,23 +93,12 @@ const userConfig: UserConfig = {
           ]
         },
         {
-          text: 'Configuration',
-          collapsed: false,
-          items: [
-            { text: 'Default config', link: '/complete-user-guide/default-config' },
-            { text: 'Secret key', link: '/complete-user-guide/configuration-secret-key' },
-            { text: 'Admin credentials', link: '/complete-user-guide/configuration-admin-credentials' },
-            { text: 'Domain', link: '/complete-user-guide/configuration-domain' },
-            { text: 'Server', link: '/complete-user-guide/configuration-server' },
-          ]
-        },
-        {
           text: 'Web/proxy server',
           collapsed: false,
           items: [
-            { text: 'Nginx (manual installation)', link: '/complete-user-guide/nginx' },
-            { text: 'Nginx Proxy Manager', link: '/complete-user-guide/nginx-proxy-manager' },
-            { text: 'Traefik', link: '/complete-user-guide/traefik' }
+            { text: 'Nginx (manual installation)', link: '/complete-user-guide/configure-nginx' },
+            { text: 'Nginx Proxy Manager', link: '/complete-user-guide/configure-nginx-proxy-manager' },
+            { text: 'Traefik', link: '/complete-user-guide/configure-traefik' }
           ]
         }
       ]

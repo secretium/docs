@@ -1,5 +1,3 @@
 ::: tip Configuration of the project
-
-More information about the **Secretium** settings and parameters, see on the [Configuration](/complete-user-guide/configuration) page.
-
+More information about the **Secretium** settings and parameters, see on the [Default config](/complete-user-guide/default-config) section.
 :::

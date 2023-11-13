@@ -24,17 +24,29 @@ For the **secret key** to encrypt data:
 echo "this-is-my-secret-key-123" > secretium_key.txt
 ```
 
+::: danger
+Please treat it with due consideration! Specify a really complex sequence of numbers, letters and special characters. The length must **not** be less than **16** characters.
+:::
+
 For the **master username** to login to the dashboard as admin:
 
 ``` bash
 echo "this-is-my-master-username" > secretium_master_username.txt
 ```
 
+::: danger
+Please treat it with due consideration! The minimum length is **4** and the maximum is **16** characters.
+:::
+
 For the **master password** to login to the dashboard as admin:
 
 ``` bash
 echo "this-is-my-master-password-123" > secretium_master_password.txt
 ```
+
+::: danger
+Please treat it with due consideration! Specify a really complex sequence of numbers, letters and special characters. The minimum length is **8** and the maximum is **16** characters.
+:::
 
 For the **domain name** of the project to share links:
 
@@ -65,13 +77,13 @@ This script will automatically:
 
 ## Configure proxy & get SSL certificate
 
-Link the container to a web/proxy server (via [Nginx Proxy Manager][nginx_proxy_manager_url] or [Traefik Proxy][traefik_proxy_url], for example) and get [Let's Encrypt][ssl_lets_encrypt_url] SSL certificate for your domain.
+Connect the container to a web/proxy server (via [Nginx Proxy Manager][nginx_proxy_manager_url] or [Traefik Proxy][traefik_proxy_url], for example) and get [Let's Encrypt][ssl_lets_encrypt_url] SSL certificate for your domain.
 
 Add it to the web/proxy server to make **Secretium** available over HTTPS.
 
 ## Start using Secretium
 
-Open your browser, visit `https://<DOMAIN>` and login to the admin dashboard with your master username and password, which you set in the previous steps.
+Open your browser, visit `https://<DOMAIN>` and login to the admin dashboard with your master **username** and **password**, which you set in the previous steps.
 
 That's it! :fire: Your smart self-hosted personal **Secretium** instance is ready to use!
 

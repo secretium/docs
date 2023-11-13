@@ -37,20 +37,26 @@
 
 [docker_secretium_image_url]: https://hub.docker.com/repository/docker/secretium/secretium
 
+[docker_portainer_url]: https://portainer.io
+
 <!-- Proxy links -->
 
-[nginx_proxy_manager_url]: https://nginxproxymanager.org
-[traefik_proxy_url]: https://traefik.io/traefik/
+[proxy_nginx_url]: https://nginx.org
+[proxy_nginx_proxy_manager_url]: https://nginxproxymanager.org
+[proxy_traefik_url]: https://traefik.io/traefik/
 
 <!-- SSL links -->
 
 [ssl_lets_encrypt_url]: https://letsencrypt.org
+[ssl_certbot_url]: https://certbot.eff.org
 
 <!-- Article links -->
 
 [article_devto_1_url]: https://dev.to/koddr/a-next-generation-cli-tool-for-building-amazing-web-apps-in-go-using-htmx-hyperscript-336d
+[article_cloudflare_timeouts_url]: https://blog.cloudflare.com/the-complete-guide-to-golang-net-http-timeouts/
 
 <!-- Other links -->
 
 [other_wsl_url]: https://learn.microsoft.com/en-us/windows/wsl/
 [other_timezone_url]: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+[other_ufw_firewall_url]: https://en.wikipedia.org/wiki/Uncomplicated_Firewall

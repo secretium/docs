@@ -17,10 +17,6 @@ Hope you find answers to all of your questions!
 
 <!--@include: ./parts/block_cant-find-answer.md-->
 
-## Visual representation
-
-We have taken care to make it **as comfortable as possible** for you to learn this wonderful tool, so each component has a sufficient textual description, as well as a visual diagram of how it works.
-
 ## Start exploring
 
 It is highly recommended to start exploring with the two sections to understand the basic principle and the main components built into the **Secretium**:
