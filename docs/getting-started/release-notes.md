@@ -1,3 +1,8 @@
+---
+editLink: false
+lastUpdated: false
+---
+
 # Release notes
 
 This section contains release notes of the each version of the **Secretium**.

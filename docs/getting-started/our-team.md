@@ -1,3 +1,8 @@
+---
+editLink: false
+lastUpdated: false
+---
+
 # Our team
 
 <script setup>
@@ -7,9 +12,18 @@ const members = [
   {
     avatar: 'https://www.github.com/koddr.png',
     name: 'Vic Shóstak',
-    title: 'Creator',
+    title: 'Founder, Developer & UX/UI',
     links: [
-      { icon: 'github', link: 'https://github.com/koddr' }
+      { icon: 'github', link: 'https://github.com/koddr' },
+      { icon: 'linkedin', link: 'https://www.linkedin.com/in/koddr' }
+    ]
+  },
+  {
+    avatar: 'https://www.github.com/truewebartisans.png',
+    name: 'True Web Artisans',
+    title: 'Contribution & Support',
+    links: [
+      { icon: 'github', link: 'https://github.com/truewebartisans' }
     ]
   }
 ]

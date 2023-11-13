@@ -16,9 +16,14 @@
 <!-- Backend links -->
 
 [backend_templ_url]: https://github.com/a-h/templ
+[backend_aes_url]: https://en.wikipedia.org/wiki/Advanced_Encryption_Standard
+[backend_sqlite_url]: https://www.sqlite.org
 
 <!-- Frontend links -->
 
+[frontend_tailwind_url]: https://tailwindcss.com
+[frontend_inter_url]: https://rsms.me/inter/
+[frontend_fira_code_url]: https://github.com/tonsky/FiraCode
 [frontend_nodejs_url]: https://nodejs.org
 [frontend_bun_url]: https://bun.sh
 [frontend_parcel_url]: https://parceljs.org
@@ -32,9 +37,10 @@
 
 [docker_secretium_image_url]: https://hub.docker.com/repository/docker/secretium/secretium
 
-<!-- Nginx links -->
+<!-- Proxy links -->
 
 [nginx_proxy_manager_url]: https://nginxproxymanager.org
+[traefik_proxy_url]: https://traefik.io/traefik/
 
 <!-- SSL links -->
 

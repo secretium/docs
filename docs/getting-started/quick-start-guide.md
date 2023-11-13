@@ -1,4 +1,4 @@
-# Quick start
+# Quick start guide
 
 Here's a minimal version of the steps to run the **Secretium** on your remote server.
 
@@ -50,7 +50,7 @@ For the current version of the installation ("quick"), it is highly recommended 
 
 ## Run automatic installation script
 
-Run the official [`quick-start.sh`][repo_quick_start_sh_url] installation script from the **Secretium** website:
+Run the official [`quick-start.sh`][repo_sh_quick_start_url] installation script from the **Secretium** website:
 
 ``` bash
 wget -O - https://secretium.org/scripts/quick-start | bash
@@ -65,7 +65,11 @@ This script will automatically:
 
 ## Configure proxy & get SSL certificate
 
-Link the container to a web/proxy server (via [Nginx Proxy Manager][nginx_proxy_manager_url], for example) and get [Let's Encrypt][ssl_lets_encrypt_url] SSL certificate for your domain. Add it to the web/proxy server to make **Secretium** available over HTTPS.
+Link the container to a web/proxy server (via [Nginx Proxy Manager][nginx_proxy_manager_url] or [Traefik Proxy][traefik_proxy_url], for example) and get [Let's Encrypt][ssl_lets_encrypt_url] SSL certificate for your domain.
+
+Add it to the web/proxy server to make **Secretium** available over HTTPS.
+
+## Start using Secretium
 
 Open your browser, visit `https://<DOMAIN>` and login to the admin dashboard with your master username and password, which you set in the previous steps.
 

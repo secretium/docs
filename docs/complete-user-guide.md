@@ -1,3 +1,8 @@
+---
+editLink: false
+lastUpdated: false
+---
+
 # Complete user guide
 
 This section contains detailed instructions on how to install, configure, deploy and use all the features of the **Secretium**.

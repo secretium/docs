@@ -8,7 +8,9 @@ const userConfig: UserConfig = {
   description: 'A smart self-hosted tool for sharing secrets with your friends, colleagues or everyone.',
   lastUpdated: true,
   cleanUrls: true,
-  mermaid: {},
+  mermaid: {
+    theme: 'neutral'
+  },
   locales: {
     root: {
       label: 'English',
@@ -41,6 +43,7 @@ const userConfig: UserConfig = {
       { text: 'Home', link: '/' },
       { text: 'Getting started', link: '/getting-started' },
       { text: 'Complete user guide', link: '/complete-user-guide' },
+      { text: '🎉 Get PRO', link: '/get-pro' },
       { text: 'FAQ', link: '/faq' },
       { text: 'Troubleshooting', link: '/troubleshooting' }
     ],
@@ -51,15 +54,14 @@ const userConfig: UserConfig = {
           collapsed: false,
           items: [
             { text: 'What is Secretium?', link: '/getting-started' },
-            { text: 'Quick start', link: '/getting-started/quick-start' },
+            { text: 'How does it work?', link: '/getting-started/how-does-it-work' },
           ]
         },
         {
-          text: 'How does it work?',
+          text: 'Try it now',
           collapsed: false,
           items: [
-            { text: 'Project structure', link: '/getting-started/project-structure' },
-            { text: 'Components', link: '/getting-started/components' }
+            { text: 'Quick start guide', link: '/getting-started/quick-start-guide' },
           ]
         },
         {
@@ -80,7 +82,15 @@ const userConfig: UserConfig = {
           ]
         },
         {
-          text: 'Install on your server',
+          text: 'Project under the hood',
+          collapsed: false,
+          items: [
+            { text: 'Project structure', link: '/complete-user-guide/project-structure' },
+            { text: 'Technologies used', link: '/complete-user-guide/technologies-used' }
+          ]
+        },
+        {
+          text: 'Installation',
           collapsed: false,
           items: [
             { text: 'Prepare server', link: '/complete-user-guide/prepare-your-server' },
@@ -94,7 +104,11 @@ const userConfig: UserConfig = {
           text: 'Configuration',
           collapsed: false,
           items: [
-            { text: 'Configuration', link: '/complete-user-guide/configuration' }
+            { text: 'Default config', link: '/complete-user-guide/default-config' },
+            { text: 'Secret key', link: '/complete-user-guide/configuration-secret-key' },
+            { text: 'Admin credentials', link: '/complete-user-guide/configuration-admin-credentials' },
+            { text: 'Domain', link: '/complete-user-guide/configuration-domain' },
+            { text: 'Server', link: '/complete-user-guide/configuration-server' },
           ]
         },
         {
