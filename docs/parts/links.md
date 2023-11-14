@@ -4,6 +4,7 @@
 [repo_releases_url]: https://github.com/secretium/secretium/releases
 [repo_discussions_url]: https://github.com/secretium/secretium/discussions
 
+[repo_docs_url]: https://github.com/secretium/docs
 [repo_docs_pr_url]: https://github.com/secretium/docs/pulls
 
 [repo_sh_quick_start_url]: https://github.com/secretium/secretium/blob/main/quick-start.sh

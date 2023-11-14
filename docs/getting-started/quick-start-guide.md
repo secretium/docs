@@ -77,7 +77,7 @@ This script will automatically:
 
 ## Configure proxy & get SSL certificate
 
-Connect the container to a web/proxy server (via [Nginx Proxy Manager][nginx_proxy_manager_url] or [Traefik Proxy][traefik_proxy_url], for example) and get [Let's Encrypt][ssl_lets_encrypt_url] SSL certificate for your domain.
+Connect the container to a web/proxy server (via [nginx-proxy][proxy_nginx_proxy_docker_url], [Nginx Proxy Manager][proxy_nginx_proxy_manager_url] or [Traefik][proxy_traefik_url], for example) and get [Let's Encrypt][ssl_lets_encrypt_url] SSL certificate for your domain.
 
 Add it to the web/proxy server to make **Secretium** available over HTTPS.
 
