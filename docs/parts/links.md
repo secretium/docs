@@ -9,6 +9,8 @@
 [repo_sh_quick_start_url]: https://github.com/secretium/secretium/blob/main/quick-start.sh
 [repo_sh_install_url]: https://github.com/secretium/secretium/blob/main/install.sh
 
+[repo_license_url]: https://github.com/secretium/secretium/blob/main/LICENSE
+
 <!-- Go links -->
 
 [go_url]: https://go.dev
@@ -42,6 +44,7 @@
 <!-- Proxy links -->
 
 [proxy_nginx_url]: https://nginx.org
+[proxy_nginx_proxy_docker_url]: https://github.com/nginx-proxy/nginx-proxy
 [proxy_nginx_proxy_manager_url]: https://nginxproxymanager.org
 [proxy_traefik_url]: https://traefik.io/traefik/
 
@@ -60,3 +63,4 @@
 [other_wsl_url]: https://learn.microsoft.com/en-us/windows/wsl/
 [other_timezone_url]: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 [other_ufw_firewall_url]: https://en.wikipedia.org/wiki/Uncomplicated_Firewall
+[other_docker_gen_url]: https://github.com/nginx-proxy/docker-gen

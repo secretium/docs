@@ -12,8 +12,8 @@ services:
   secretium:
     image: 'secretium/secretium:latest'
     restart: unless-stopped
-    ports:
-      - '8787:8787'
+    expose:
+      - '8787'
     environment:
       SECRET_KEY: /run/secrets/secretium_key
       MASTER_USERNAME: /run/secrets/secretium_master_username
@@ -51,18 +51,18 @@ services:
     image: 'secretium/secretium:latest'
 ```
 
-## Host and container ports
+## Exposed container port
 
-Forward the exposed port `8787` on the container to port `8787` on the host machine.
+Forward the exposed port `8787` on the container to the host machine.
 
 ```yaml
 services:
   secretium:
-    ports:
-      - '8787:8787'
+    expose:
+      - '8787'
 ```
 
-The default value is `8787:8787`.
+The default value is `8787`.
 
 ## Environment variables
 

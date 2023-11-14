@@ -4,9 +4,15 @@ This section will show you the minimum steps to configure **Secretium** to work 
 
 <!--@include: ../parts/block_proxy_container_run.md-->
 
-## Create Nginx config file
+## What is Nginx?
 
-Create a Nginx configuration file for your domain:
+**Nginx** is a web server that can also be used as a reverse proxy, load balancer, mail proxy and HTTP cache. Nginx is free and open-source software, released under the terms of the 2-clause BSD license.
+
+<img width="100px" src="https://github.com/nginxinc.png" alt="Nginx logo"/>
+
+## Create Nginx config file for your domain
+
+Create a config file for your domain name:
 
 ```bash
 sudo nano /etc/nginx/sites-available/example.com
@@ -20,15 +26,22 @@ Add the following content:
 
 ```nginx
 server {
+    listen 80 default_server;
+    listen [::]:80 default_server;
+
     server_name example.com www.example.com;
 
     location / {
-        proxy_pass http://127.0.0.1:8787;
+        resolver 127.0.0.11;
+        proxy_pass http://secretium:8787;
+        proxy_redirect off;
+        proxy_set_header Host $host;
+        proxy_set_header X-Real_IP $remote_addr;
     }
 }
 ```
 
-## Restart Nginx
+Verify the config file and reload Nginx:
 
 ```bash
 sudo nginx -t && sudo systemctl reload nginx

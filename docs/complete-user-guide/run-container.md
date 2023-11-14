@@ -18,6 +18,6 @@ That's it! :fire: Your smart self-hosted personal **Secretium** instance is read
 
 ### What's next?
 
-For your convenience, we have prepared minimal instructions on how to connect the **Secretium** container to the most popular web/proxy servers such as **Nginx** (manual installation), **Nginx Proxy Manager** and **Traefik**.
+For your convenience, we have prepared minimal instructions on how to connect the **Secretium** container to the most popular web/proxy servers such as **Nginx** (manual installation), **Nginx** (via Docker), **Nginx Proxy Manager** and **Traefik**.
 
 <!--@include: ../parts/links.md-->

@@ -43,7 +43,7 @@ const userConfig: UserConfig = {
       { text: 'Home', link: '/' },
       { text: 'Getting started', link: '/getting-started' },
       { text: 'Complete user guide', link: '/complete-user-guide' },
-      { text: '🎉 Get PRO', link: '/get-pro' },
+      { text: 'Pricing', link: '/pricing' },
       { text: 'FAQ', link: '/faq' },
       { text: 'Troubleshooting', link: '/troubleshooting' }
     ],
@@ -97,6 +97,7 @@ const userConfig: UserConfig = {
           collapsed: false,
           items: [
             { text: 'Nginx (manual installation)', link: '/complete-user-guide/configure-nginx' },
+            { text: 'Nginx (Docker)', link: '/complete-user-guide/configure-nginx-docker' },
             { text: 'Nginx Proxy Manager', link: '/complete-user-guide/configure-nginx-proxy-manager' },
             { text: 'Traefik', link: '/complete-user-guide/configure-traefik' }
           ]
