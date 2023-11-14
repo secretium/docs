@@ -7,11 +7,11 @@ lastUpdated: false
 
 In this section, we will analyze the main editions of the **Secretium** project so that you can choose the one that meets your requirements.
 
-## Open Source edition
+## Open Source
 
 This is the core of the **Secretium** project.
 
-The Open Source edition of the **Secretium** project is a fully Community-driven solution for personal use. You can run it on your own remote server, as an isolated Docker container.
+The Open Source (or Community) edition of the **Secretium** project is a fully community-driven solution for personal use. You can run it on your own remote server, as an isolated Docker container.
 
 100% free on a permanent basis, under the [Apache 2.0][repo_license_url] license.
 
@@ -19,7 +19,7 @@ The Open Source edition of the **Secretium** project is a fully Community-driven
 
 ## Paid editions
 
-To continue development of the Open Source edition and to meet the needs of business, the **Secretium** project includes two more paid editions: **Cloud** and **Business**.
+To continue development of the Open Source (or Community) edition and to meet the needs of business, **Secretium** includes two more paid editions: **Cloud** and **Business**.
 
 <!--@include: ./parts/block_pricing-russia.md-->
 
@@ -27,7 +27,7 @@ To continue development of the Open Source edition and to meet the needs of busi
 
 A cloud-based (SaaS) solution of the **Secretium** project for your team or small business.
 
-We cover all accommodation and support costs. This is an ideal solution when there is no resource to deploy the Open Source edition of the **Secretium** project on your server.
+We cover all accommodation and support costs. This is an ideal solution when there is no resource to deploy the Open Source (or Community) edition of the **Secretium** project on your server.
 
 :point_right: Expect launch in the first half of 2024
 

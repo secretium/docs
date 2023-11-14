@@ -1,3 +1,9 @@
+---
+prev:
+  text: 'FAQ'
+  link: '/faq'
+---
+
 # Troubleshooting
 
 The most common malfunctions that may come up when using the **Secretium**.

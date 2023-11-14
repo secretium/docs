@@ -1,6 +1,9 @@
 ---
 editLink: false
 lastUpdated: false
+next:
+  text: 'Complete user guide'
+  link: '/complete-user-guide'
 ---
 
 # Our team
