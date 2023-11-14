@@ -41,15 +41,15 @@ netstat -aon
 
 To change the port number, edit the `docker-compose.yml` file:
 
-1. Replace `<HOST_PORT>` with the port number of your host, and `<CONTAINER_PORT>` with the port number you want to use for the container.
+1. Replace `<CONTAINER_PORT>` with the port number you want to use for the container.
 2. Replace `<SERVER_PORT>` with the same port number as the exposed container port (`<CONTAINER_PORT>`).
 
 ``` yaml{5,8}
 services:
   secretium:
     # ...
-    ports:
-      - '<HOST_PORT>:<CONTAINER_PORT>'
+    expose:
+      - '<CONTAINER_PORT>'
     environment:
       # ...
       SERVER_PORT: <SERVER_PORT>
