@@ -15,7 +15,7 @@ Other architectures and operating systems are **not** supported.
 
 ::: tip Windows Subsystem for Linux
 
-Yes, **Secretium** perfectly works on the [Windows Subsystem for Linux][other_wsl_url] (WSL) too, because it uses the regular GNU/Linux distro Ubuntu.
+Yes, **Secretium** perfectly works on the [Windows Subsystem for Linux][other_wsl_url] (WSL) too, because it uses Ubuntu as the GNU/Linux distro.
 
 :::
 
