@@ -120,11 +120,13 @@ services:
 
 Since we are using Docker Secrets, the internal Docker address will be used to set it.
 
+The default value is `localhost`.
+
 ### `DOMAIN_SCHEMA`
 
 Set the HTTP scheme for your domain name. The scheme will be used to generate links for secret sharing.
 
-The default value is `https`.
+The default value is `http`.
 
 ### `SERVER_PORT`
 
