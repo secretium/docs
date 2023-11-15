@@ -1,13 +1,13 @@
 # Documentation of the Secretium
 
-The official documentation of the [Secretium][secretium_url].
+The official documentation of the [Secretium][secretium_url] project.
 
 ## ⚡️ Quick start
 
 Start a developer server with the **Secretium** Docs by running this command:
 
 ```bash
-docker run --rm -it -p 8000:8000 -v ${PWD}:/docs squidfunk/mkdocs-material
+bun run dev
 ```
 
 ## 🏆 A win-win cooperation
