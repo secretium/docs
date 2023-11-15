@@ -1,5 +1,6 @@
 {
   "name": "secretium-docs",
+  "description": "Documentation for the Secretium project.",
   "version": "1.0.0",
   "license": "Apache-2.0",
   "scripts": {
@@ -8,12 +9,12 @@
     "preview": "bunx vitepress preview docs"
   },
   "devDependencies": {
-    "mermaid": "latest",
-    "vitepress": "latest",
-    "vitepress-plugin-mermaid": "latest",
-    "vue": "latest"
+    "mermaid": "^10.6.1",
+    "vitepress": "^1.0.0-rc.25",
+    "vitepress-plugin-mermaid": "^2.0.15",
+    "vue": "^3.3.8"
   },
   "peerDependencies": {
-    "typescript": "latest"
+    "typescript": "^5.2.2"
   }
 }
