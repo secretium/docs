@@ -17,17 +17,29 @@ hero:
       link: https://github.com/secretium/secretium
 
 features:
-  - title: Community first
-    details: 100% free and Open Source under the Apache 2.0 license.
-  - title: Blazing fast
-    details: Powered by the Go programming language, Templ & htmx libraries.
-  - title: Encrypted by design
-    details: Works with AES encryption algorithm for secure your data.
-  - title: UI themes
-    details: Supported automatic switching between the light/dark themes.
-  - title: Run everywhere
-    details: Does not depend on the host OS, it runs completely in an isolated Docker container.
-  - title: Everyone are welcome
-    details: For any level of developer's knowledge and technical expertise.
+  - title: 社区优先
+    details: 100% 免费开源项目，采用 Apache 2.0 和 Creative Commons 许可。
+    icon:
+      src: /icons/open-source.svg
+  - title: 速度极快
+    details: 采用 Go 编程语言、Templ 和 htmx 库。
+    icon:
+      src: /icons/blazing-fast.svg
+  - title: 设计加密
+    details: 采用 AES 加密算法，确保数据存储到数据库前的安全。
+    icon:
+      src: /icons/encrypted-by-design.svg
+  - title: 用户界面主题
+    details: Tailwind CSS 框架支持明暗主题之间的自动切换。
+    icon:
+      src: /icons/ui-themes.svg
+  - title: 随处运行
+    details: 不依赖于 GNU/Linux 主机系统，而是在独立的 Docker 容器中运行。
+    icon:
+      src: /icons/run-everywhere.svg
+  - title: 欢迎所有人
+    details: 完善的文档，适合任何知识水平和技术专长的开发人员。
+    icon:
+      src: /icons/for-everyone.svg
 ---
 

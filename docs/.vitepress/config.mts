@@ -116,7 +116,7 @@ const userConfig: UserConfig = {
       }
     ],
     footer: {
-      message: "<a href='https://github.com/secretium' target='_blank'>Secretium</a> is 100% free and Open Source project under the Apache 2.0 license.",
+      message: "<a href='https://github.com/secretium' target='_blank'>Secretium</a> is 100% free and Open Source project under the Apache 2.0 license.<br/>Official logo distributed under the Creative Commons License (CC BY-SA 4.0 International).",
       copyright: "Copyright © 2023-present <a href='https://github.com/koddr' target='_blank'>Vic Shóstak</a> and the <a href='https://github.com/secretium' target='_blank'>True Web Artisans team</a>.",
     },
     editLink: {
