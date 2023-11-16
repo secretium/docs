@@ -10,7 +10,7 @@
   },
   "devDependencies": {
     "mermaid": "^10.6.1",
-    "vitepress": "^1.0.0-rc.25",
+    "vitepress": "^1.0.0-rc.26",
     "vitepress-plugin-mermaid": "^2.0.15",
     "vue": "^3.3.8"
   },
