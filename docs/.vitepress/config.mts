@@ -68,6 +68,7 @@ const userConfig: UserConfig = {
           text: 'Development',
           collapsed: false,
           items: [
+            { text: 'Manual installation', link: '/getting-started/manual-installation' },
             { text: 'Release notes', link: '/getting-started/release-notes' },
             { text: 'Our team', link: '/getting-started/our-team' }
           ]

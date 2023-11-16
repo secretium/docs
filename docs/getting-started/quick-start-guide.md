@@ -48,10 +48,10 @@ Please treat it with due consideration! Specify a really complex sequence of num
 
 ## Run automatic installation script
 
-Run the official [`quick-start.sh`][repo_sh_quick_start_url] installation script from the **Secretium** website:
+Run the official [`quick-start.sh`][repo_sh_quick_start_url] installation script from the **Secretium** repository:
 
 ``` bash
-wget -O - https://secretium.org/scripts/quick-start | bash
+wget -O - https://raw.githubusercontent.com/secretium/secretium/main/quick-start.sh | bash
 ```
 
 This script will automatically:

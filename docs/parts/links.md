@@ -56,7 +56,7 @@
 
 <!-- Article links -->
 
-[article_devto_1_url]: https://dev.to/koddr/a-next-generation-cli-tool-for-building-amazing-web-apps-in-go-using-htmx-hyperscript-336d
+[article_devto_1_url]: https://dev.to/koddr
 [article_cloudflare_timeouts_url]: https://blog.cloudflare.com/the-complete-guide-to-golang-net-http-timeouts/
 
 <!-- Other links -->
@@ -65,3 +65,4 @@
 [other_timezone_url]: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 [other_ufw_firewall_url]: https://en.wikipedia.org/wiki/Uncomplicated_Firewall
 [other_docker_gen_url]: https://github.com/nginx-proxy/docker-gen
+[other_goreleaser_url]: https://goreleaser.com
