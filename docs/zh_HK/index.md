@@ -29,17 +29,17 @@ features:
     details: 采用 AES 加密算法，确保数据存储到数据库前的安全。
     icon:
       src: /icons/encrypted-by-design.svg
-  - title: 用户界面主题
-    details: Tailwind CSS 框架支持明暗主题之间的自动切换。
-    icon:
-      src: /icons/ui-themes.svg
-  - title: 随处运行
-    details: 不依赖于 GNU/Linux 主机系统，而是在独立的 Docker 容器中运行。
-    icon:
-      src: /icons/run-everywhere.svg
   - title: 欢迎所有人
     details: 完善的文档，适合任何知识水平和技术专长的开发人员。
     icon:
       src: /icons/for-everyone.svg
+  - title: 随处运行
+    details: 不依赖于 GNU/Linux 主机系统，而是在独立的 Docker 容器中运行。
+    icon:
+      src: /icons/run-everywhere.svg
+  - title: 用户界面主题
+    details: Tailwind CSS 框架支持明暗主题之间的自动切换。
+    icon:
+      src: /icons/ui-themes.svg
 ---
 
