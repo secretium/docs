@@ -17,7 +17,7 @@ hero:
       link: https://github.com/secretium/secretium
 
 features:
-  - title: Сообщество — прежде всего
+  - title: Сообщество — превыше всего
     details: 100% свободный проект с открытым исходным кодом под лицензиями Apache 2.0 и Creative Commons.
     icon:
       src: /icons/open-source.svg
