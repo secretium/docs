@@ -10,11 +10,11 @@
   },
   "devDependencies": {
     "mermaid": "^10.6.1",
-    "vitepress": "^1.0.0-rc.29",
+    "vitepress": "^1.0.0-rc.31",
     "vitepress-plugin-mermaid": "^2.0.15",
-    "vue": "^3.3.8"
+    "vue": "^3.3.9"
   },
   "peerDependencies": {
-    "typescript": "^5.2.2"
+    "typescript": "^5.3.2"
   }
 }
